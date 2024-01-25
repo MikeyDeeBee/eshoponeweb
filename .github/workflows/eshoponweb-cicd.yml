@@ -55,8 +55,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: buildandtest
-    environment:
-      name: 'Development'
+    environment: Development
     steps:
     
     #Download the publish files created in previous job
